@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/meal_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp6"
+    android:background="@drawable/background_shadow">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:id="@+id/meal_image_holder">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp224"
+            android:scaleType="fitCenter"
+            android:src="@drawable/food"
+            android:id="@+id/meal_image"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/meal_image"
+            android:background="@color/grey_black"
+            android:padding="@dimen/dp16"
+            android:text="Meal Name"
+            android:id="@+id/meal_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp18" />
+
+        <ImageButton
+            android:layout_width="@dimen/dp48"
+            android:layout_height="@dimen/dp48"
+            android:src="@drawable/grey_heart"
+            android:scaleType="fitCenter"
+            android:id="@+id/favourite"
+            android:layout_marginRight="@dimen/dp12"
+            android:layout_marginTop="@dimen/dp12"
+            android:layout_marginBottom="@dimen/dp8"
+            android:background="@null"
+            android:layout_alignParentRight="true" />
+
+        <ImageButton
+            android:id="@+id/youtube"
+            android:layout_width="@dimen/dp48"
+            android:layout_height="@dimen/dp48"
+            android:layout_below="@id/favourite"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp12"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/youtube" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_grey"
+        android:id="@+id/meal_info"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp12">
+    </LinearLayout>
+</LinearLayout>

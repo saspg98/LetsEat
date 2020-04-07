@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp12"
+    android:layout_marginLeft="@dimen/dp12"
+    android:layout_marginRight="@dimen/dp12"
+    android:orientation="vertical"
+    android:id="@+id/detail_card"
+    android:background="@drawable/background_shadow">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Name"
+        android:id="@+id/detail"
+        android:padding="@dimen/dp16"
+        android:textSize="@dimen/dp18"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        android:background="@color/grey"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:padding="@dimen/dp16"
+        android:id="@+id/description"
+        android:textSize="@dimen/dp14"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LetsEat</string>
+    <string name="MEAL">MEAL</string>
+    <string name="add_favourite">Added to Favorites.</string>
+    <string name="remove_favourite">Removed from Favorites.</string>
+    <string name="no_favorites_items">No Favorites.</string>
+    <string name="no_favorites_msg">Press "HEART" on item to add to favorites.</string>
+    <string name="prev_activity">ACTIVITY</string>
+</resources>
